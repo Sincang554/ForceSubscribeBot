@@ -23,7 +23,7 @@ By @YaeMikoBotSupport
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/pasiffandtrue/63")],
+        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/YaeMikoBotSupport")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton("🎪 About 🎪", callback_data="about")
