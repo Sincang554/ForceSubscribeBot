@@ -45,7 +45,7 @@ async def main(bot: Client, msg: Message):
                     await msg.chat.restrict_member(user_id, ChatPermissions(can_send_messages=False))
                     buttons.append([InlineKeyboardButton("Unmute Me", callback_data=f"joined+{msg.from_user.id}")])
                 await msg.reply(
-                    f"Kamu harus join di {mention} baru bisa chat dan click unmute.",
+                    f"Kamu harus join di {mention} baru bisa Promote dan click unmute.",
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup(buttons),
                 )
