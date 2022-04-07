@@ -24,7 +24,7 @@ async def fsub(bot, msg: Message):
         creator = True if (await bot.get_chat_member(chat_id, msg.from_user.id)).status == "creator" else False
         only_owner = await get_only_owner(chat_id)
         if only_owner and not creator:
-            await msg.reply("Only owner can change Force Subscribe chat in this chat.")
+            await msg.reply("Hanya owner bisa mengubahnya Paksa ForceSubs diObrolan ini")
             return
         to_be_chat = msg.command[1]
         try:
