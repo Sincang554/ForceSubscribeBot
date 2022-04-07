@@ -23,13 +23,13 @@ By @LsncGc
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/YaeMikoBotSupport")],
+        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/LsncGc")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("✨About ✨", callback_data="about")
         ],
         [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/pasiffandtrue")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/YaeMikoBotSupport")],
+        [InlineKeyboardButton("✨Support Group✨", url="https://t.me/LsncGc")],
     ]
 
     # Help Message
