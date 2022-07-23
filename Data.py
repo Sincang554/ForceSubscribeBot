@@ -13,7 +13,7 @@ The chat can be a group or channel. It can be private or public.
 
 Use below buttons to learn more !
 
-By @LsncGc
+By @DEADLINE_TECH
     """
 
     # Home Button
@@ -23,13 +23,13 @@ By @LsncGc
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/LsncGc")],
+        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/pasiffandtrue")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton("✨About ✨", callback_data="about")
         ],
         [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/pasiffandtrue")],
-        [InlineKeyboardButton("✨Support Group✨", url="https://t.me/LsncGc")],
+        [InlineKeyboardButton("✨Support Group✨", url="https://t.me/deadline_tech")],
     ]
 
     # Help Message
@@ -64,11 +64,11 @@ Example : `/fsub -1001505616678` or `/forcesubscribe -1001375849192`
 
 A telegram force subscribing bot by @saputraaazka
 
-Support code : [Click Here](https://t.me/lsncGc)
+Support code : [Click Here](https://t.me/deadline_tech)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Developer : @saputraaazka
+Developer : @saputraaazka & @deadline_tech
     """
